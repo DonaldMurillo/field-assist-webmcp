@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-09-01T16:50:51.357Z",
+  "model": "gpt-5.6-terra",
+  "reasoningEffort": "low",
+  "repeatsPerScenario": 2,
+  "summary": {
+    "total": 6,
+    "passed": 6,
+    "passRate": 100,
+    "averageScore": 98,
+    "averageLatencyMs": 14290,
+    "hardFailures": [],
+    "passedGate": true
+  },
+  "runs": [
+    {
+      "scenario": "lost-tv-controller",
+      "run": 1,
+      "score": 100,
+      "elapsedMs": 14649,
+      "tools": ["inspect_scene", "draw_arrow", "send_operator_instruction"]
+    },
+    {
+      "scenario": "lost-tv-controller",
+      "run": 2,
+      "score": 100,
+      "elapsedMs": 12549,
+      "tools": ["inspect_scene", "draw_arrow", "send_operator_instruction"]
+    },
+    {
+      "scenario": "free-form-port",
+      "run": 1,
+      "score": 100,
+      "elapsedMs": 14214,
+      "tools": ["inspect_scene", "draw_arrow", "send_operator_instruction"]
+    },
+    {
+      "scenario": "free-form-port",
+      "run": 2,
+      "score": 100,
+      "elapsedMs": 15349,
+      "tools": ["inspect_scene", "draw_arrow", "send_operator_instruction"]
+    },
+    {
+      "scenario": "tracking-recovery",
+      "run": 1,
+      "score": 90,
+      "elapsedMs": 13336,
+      "tools": ["inspect_scene", "request_closeup"]
+    },
+    {
+      "scenario": "tracking-recovery",
+      "run": 2,
+      "score": 100,
+      "elapsedMs": 15641,
+      "tools": ["inspect_scene", "inspect_object", "request_different_angle"]
+    }
+  ]
+}
+

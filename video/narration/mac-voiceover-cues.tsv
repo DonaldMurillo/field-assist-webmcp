@@ -1,0 +1,10 @@
+0.6	Words fail when remote support asks, “Which button?” Field Assist lets an agent see, confirm, and point directly into the live view.
+10.6	A support session begins with a secure QR code. The operator scans it on their phone and shares the camera peer to peer—without installing an app, creating an account, or streaming the video through the application server.
+26.6	Here, the operator needs help finding the power control on a PlayStation. Codex inspects the live scene through WebMCP and turns what it sees into a specific, testable identification.
+39.4	Before acting on the physical world, the operator confirms the detected object. That human checkpoint prevents the assistant from confidently guiding someone toward the wrong device.
+52.2	Once confirmed, the support console starts visual tracking and spatial perception. OpenCV follows image features, Depth Anything estimates scene structure, and phone orientation data helps compensate as the camera moves.
+78.6	Codex uses its product knowledge and the live visual context to locate the likely power control. It then sends one clear instruction to the phone, where it is impossible to miss while the operator is holding the camera.
+97.0	The arrow is not merely pinned to screen coordinates. Field Assist continually corrects it against the tracked object and scene geometry as the operator changes position. The support agent can verify the placement, recalibrate when confidence drops, and keep the instruction synchronized across both screens.
+125.2	The same interaction applies far beyond consumer electronics: equipment repair, device setup, field service, accessibility, independent living, remote care, warehouse picking, inspections, and safety training. Anywhere pointing is clearer than describing, remote expertise can become actionable.
+145.5	The stack combines Codex and WebMCP with GoFastr, WebRTC, OpenCV, Depth Anything, ONNX Runtime Web, and phone orientation—all in one web app.
+159.0	Field Assist turns remote expertise into guidance anchored to the real world.

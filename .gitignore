@@ -1,0 +1,14 @@
+/gofastr-webmcp-xr
+/output/
+/node_modules/
+/e2e/node_modules/
+/e2e/playwright-report/
+/e2e/test-results/
+/video/node_modules/
+/video/.cache/
+/artifacts/
+/.playwright-cli/
+/.playwright-mcp/
+/.devpost-hackathon-state.json
+.DS_Store
+evals/results/

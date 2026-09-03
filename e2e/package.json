@@ -1,0 +1,20 @@
+{
+  "name": "gofastr-field-assist-e2e",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "capture:submission": "node scripts/capture-submission.mjs",
+    "fixture:depth-parallax": "node scripts/generate-depth-parallax-video.mjs",
+    "test": "pnpm exec playwright test",
+    "test:perception-runtime": "E2E_PERCEPTION_RUNTIME=1 pnpm exec playwright test tests/perception-runtime-smoke.spec.ts",
+    "test:debug-tools": "E2E_WEBMCP_DEBUG=1 pnpm exec playwright test",
+    "test:headed": "pnpm exec playwright test --headed",
+    "test:debug": "pnpm exec playwright test --debug",
+    "evals": "node ../evals/run.mjs",
+    "evals:score": "node --test ../evals/score.test.mjs",
+    "install:browsers": "pnpm exec playwright install chromium"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.61.1"
+  }
+}

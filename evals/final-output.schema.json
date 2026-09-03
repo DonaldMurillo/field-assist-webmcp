@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "outcome": { "type": "string", "enum": ["completed", "needs_operator_input", "blocked"] },
+    "summary": { "type": "string" },
+    "evidence": {
+      "type": "array",
+      "items": { "type": "string" },
+      "maxItems": 6
+    }
+  },
+  "required": ["outcome", "summary", "evidence"]
+}
+
